@@ -39,7 +39,7 @@ Valid Tiny08 Assembly Instructions and their Machine Code counterparts include:
     STR x - 4x (Stores the value in register D0 into memory location x)
     DISP x - 5x (Displays the value at memory location x)
     JMP x - 6x (Moves the program counter to memory location x)
-    JZ - 7x (Moves the program counter to memory location x if the previous arithmetic operation
+    JZ x - 7x (Moves the program counter to memory location x if the previous arithmetic operation
             resulted in a 0)
 """
 
