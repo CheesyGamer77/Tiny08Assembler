@@ -50,6 +50,4 @@ __copyright__ = "Copyright 2020 CheesyGamer77"
 __version__ = "1.0"
 
 from .assembler import Assembler
-
-if __name__ == "__main__":
-    assembler = Assembler()
+from .memoryfile import MemoryFile
